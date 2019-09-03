@@ -127,7 +127,7 @@ namespace ChallengesWithTests01.Tests
         [InlineData("Leigh Ann", "Hello, Leigh Ann!")]
         [InlineData("", "Hello!")]
         // [InlineData(null, "Hello!")] // Assumption: string will not be null
-        public void GetGreeting(string personName, string expectedGreeting)
+        public void GetGreeting(string personName, string expectedGreeting) //ChallengesWithTest01.cs string was named nameOfPerson
         {
             // Arrange
             ChallengesSet01 challenger = new ChallengesSet01();
